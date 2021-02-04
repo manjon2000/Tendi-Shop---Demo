@@ -1,0 +1,355 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: arial;
+}
+#hamburgesa{
+    display: none;
+}
+
+#header{
+    width: 100%;
+    height: 700px;
+    background: url(img/fondo.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#header p{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    color: #fff;
+    font-family: 'Patrick Hand', cursive;
+}
+.logo h1{
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+}
+#logo-navegacion{
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    position: fixed;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+     
+}
+#logo-navegacion ul{
+    display: flex;
+    align-items: center;
+    float: right;
+
+}
+#logo-navegacion li{
+    list-style: none;
+    
+}
+#logo-navegacion a{
+    margin-right: 25px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Tendencias */
+#tendencias{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.titulo-tendencias h2{
+    border-left: 2px solid violet;
+    margin-left: 30px;
+    font-size: 25px;
+    padding: 0px 5px;
+    font-weight: lighter;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+.img-tendencias img{
+    width: 100%;
+    display: inline;
+    transition: 1.3s ease;
+    margin-top: 50px;
+}
+.img-tendencias img:hover{
+    width: 110%;
+    transform: scale(1.06);
+}
+.img-tendencias{
+    width: 25%;
+    display: inline-table;
+    margin: 0px auto; 
+    margin-left: 100px;
+    margin-top: 10px; 
+}
+.img-tendencias p{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 0.8);
+    font-weight: bold;
+    
+}
+.img-tendencias h4{
+    text-align: center;
+    font-size: 19px;
+    color: rgba(82, 82, 82, 0.905);
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* Secion de novedad (texto e imagen y 
+color de fondo #cccc opacidad 0.6) */
+
+#novedad{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: #50514fc7;
+    margin-top: 100px;
+}
+.novedades2020{
+    position: relative;
+    left: 0px;
+    top : 30%;
+}
+.titleandtext{
+    width:100%;
+    position: relative;
+    left: 80px;   
+}
+.titleandtext h2{
+    color: #ffff;
+    font-size: 35px;
+}
+.titleandtext h4{
+    color: #ffff;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.titleandtext button{
+    width: 33%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.titleandtext button:hover{
+    transform: scale(1.02);
+}
+.image-novedades{
+    display: flex;
+    position: absolute;
+    left: 540px;
+    top: -98%;
+    float: right;
+}
+.image-novedades img{
+    width: 55vw;
+} 
+
+/* Seccion zapatillas */
+#zapatillas{
+    width: 100%;
+     margin-top: 50px;
+    margin-bottom: 100px;
+}
+.img-zapatillas img{
+    width: 100%;
+    display: inline;
+    transition: 1.3s ease;
+    margin-top: 50px;
+}
+.img-zapatillas img:hover{
+    width: 110%;
+    transform: scale(1.06);
+}
+.img-zapatillas{
+    display: inline-table;
+    width: 22%;
+    height: auto;
+    margin: 0px auto; 
+    margin-left: 100px;
+    margin-top: 10px; 
+}
+.img-zapatillas p{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(153, 153, 153, 0.8);
+    font-weight: bold;
+    
+}
+.img-zapatillas h4{
+    text-align: center;
+    font-size: 19px;
+    color: rgba(82, 82, 82, 0.905);
+    font-family: 'Patrick Hand', cursive;
+}
+.titulo-zapatillas h2{
+    border-left: 2px solid violet;
+    margin-left: 30px;
+    font-size: 25px;
+    padding: 0px 5px;
+    font-weight: lighter;
+    font-family: 'Patrick Hand', cursive;   
+}
+
+/* Footer */
+#footer{
+width: 100%;
+height: 240px;
+background-color: #ccc;
+position: relative;
+}
+/* Contactos Redes Sociales */
+.contacto{
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    margin-top: 15px;
+    transform: rotate(270deg);
+}
+.imagenes-rrss img{
+    padding: 10px 10px;
+    border-left: 3px solid #fff;
+    margin-left: 10px;
+    transform: rotate(450deg)
+}
+.imagenes-rrss img:hover{
+    border-left: 3px solid violet;
+}
+/* Links Contenido Pagina Web */
+.listacontenido{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 75%;
+    top: 25px;
+}
+#ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.listacontenido a{
+    align-self: center;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.listacontenido a:hover{
+    border-bottom: 1px solid #000;
+}
+/* Productos */
+.productos{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 60%;
+    top: 25px;
+}
+.productos li{
+    margin-top: 10px;
+    list-style: none;
+}
+.productos a{
+    align-self: center;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.productos a:hover{
+    border-bottom: 1px solid #000;
+}
+/* Asistencia */
+.asistencia{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 40%;
+    top: 25px;
+}
+.asistencia li{
+    margin-top: 10px;
+    list-style: none;
+}
+.asistencia a{
+    align-self: center;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.asistencia a:hover{
+    border-bottom: 1px solid #000;
+}
+/* Sobre La Empresa */
+.sobreempresa{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 24%;
+    top: 25px;
+}
+.sobreempresa li{
+    margin-top: 15px;
+    list-style: none;
+}
+.sobreempresa a{
+    align-self: center;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.sobreempresa a:hover{
+    border-bottom: 1px solid #000;
+}
+
+/* Las Cookies */
+.cokies{
+    width: 100%;
+    height: 100px;
+     position: relative;
+    background-color: rgba(204, 204, 204, 0.651);
+   
+    
+}
+ .cokies ul{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 35px;
+    left: 8%; 
+    
+}
+.cokies li:nth-child(6){
+    border-right: none;
+
+}
+.cokies li{
+    list-style: none;
+    padding: 0px 15px;
+    margin-right: 15px;
+    border-right: 3px solid rgb(255, 255, 255);
+}
+.cokies li:hover{
+    border-right: 3px solid violet;
+}
+.cokies a{
+    color: rgb(29, 29, 29);
+} 

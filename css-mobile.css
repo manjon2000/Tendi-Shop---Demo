@@ -1,0 +1,175 @@
+@media  (max-width: 900px){
+    /* Cabesera */
+    #text{
+        overflow: hidden;
+    }
+    #logo-navegacion{
+        width: 100%;
+        overflow: hidden;
+    }
+    #header{
+        width: 100vw;
+        height: 500px;
+    }
+    #header p{
+        width: 450px;
+        height: 70px;
+        top: 40%;
+        left: 24%;
+    }
+    /* Tendencias */
+    #tendencias{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .img-tendencias{
+        width: 28vw;
+        margin-left: 25px;
+       
+    }
+    /* Novedades */
+    #novedad{
+        width: 100vw;
+        position: relative;
+    }
+    .titleandtext{
+    left: 15px;
+
+    }
+    .titleandtext h2{
+        font-size: 24px;
+    }
+    .titleandtext h4{
+        font-size: 19px;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .titleandtext button{
+        width: 250px;
+        margin-left: 10px;
+    }
+    .image-novedades{
+        position: relative;
+    }
+    .image-novedades img{
+        width: 60vw;
+        position: absolute;
+        top: -40px;
+        left: -460px;
+    }
+    /* Zapatillas */
+    #zapatillas{
+        max-width: 900px;
+        overflow: hidden;
+    }
+    .img-zapatillas{
+        max-width: 29%;
+        margin-left: 20px;
+        overflow: hidden;
+    }
+    /* Footer */
+    #footer{
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    .contacto{
+        position: absolute;
+        left: -50px;
+        margin-top: 20px;
+    }
+    .listacontenido{
+        width: 100%;
+        left: 20%;
+    }
+    .productos{
+        width: 100%;
+        left: 35%;
+    }
+    .asistencia{
+        width: 100%;
+        left: 52%;
+    }
+    .sobreempresa{
+        width: 100%;
+        left: 75%;
+    }
+    .cokies ul{
+        margin-left: -50px;
+    }
+
+}
+
+
+@media (max-width: 750px){
+    #header{
+        background: url(img/fondo.png);
+        background-position: -275% -430%;
+        background-attachment: fixed;   
+    }
+    #header p{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }
+    #logo-navegacion .responisve-menu  {
+     position: absolute;
+     left: 0px;
+ }
+ #logo-navegacion{
+     width: 100%;
+     height: 70px;
+     box-shadow: 2px 2px 2px 2px  #fff;
+ }
+ .logo{
+     position: fixed;
+ }
+ .nav{
+     position: fixed;
+     
+ }
+ 
+ .nav{
+    width: 750px;
+    height: 550px;
+    position: relative;
+    left: -790px;
+    transition: 2s ease-out;
+ }
+ .nav ul{
+     display: flex;
+     flex-direction: column;
+     position: fixed;
+     top:50px; 
+     background-color: rgba(255, 255, 255, 0.849);
+     text-align: center;
+     width: 100%;
+     height: 570px;
+     cursor: pointer;
+     
+     
+ }
+    .nav li{
+    width: 50%;
+     margin-top: 55px;
+     padding: 33px 0px;
+     text-align: center;
+     
+     
+ }
+ .nav li:hover{
+    border-bottom: 1px solid rgba(82, 82, 82, 0.905);
+    
+ }
+ #hamburgesa{
+    max-width: 45px;
+    display: block;
+    position: absolute;
+    left: 50px;
+    font-size: 25px;
+    right: 0px;
+    color: black;
+    z-index: 999999;
+    cursor: pointer;
+ }
+}
